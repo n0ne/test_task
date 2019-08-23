@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c060cd-cba8-45a3-b8a0-f68a02b23e5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/header_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/header_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/header_okd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/header_old.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -73,7 +76,8 @@
       <updated>1566397373628</updated>
       <workItem from="1566397374931" duration="4766000" />
       <workItem from="1566409362433" duration="19701000" />
-      <workItem from="1566462152566" duration="32054000" />
+      <workItem from="1566462152566" duration="32305000" />
+      <workItem from="1566539975611" duration="16999000" />
     </task>
     <servers />
   </component>
@@ -85,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
