@@ -701,6 +701,7 @@ sup {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .makler_photo {
@@ -787,6 +788,27 @@ sup {
   .hide-after-desktop {
     display: none;
   }
+  .mobile_app_content {
+    display: block;
+  }
+  .mobileAppCard:first-child {
+    display: none;
+  }
+  .mobileAppCard:last-child {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .makler_cards_description {
+    margin-top: 35px;
+  }
+
+  .mobileAppCard:last-child {
+    height: unset;
+  }
+  .mobile_app_button_container {
+    margin-bottom: 35px;
+  }
+
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1000px) {
@@ -916,6 +938,11 @@ sup {
 }
 
 @media only screen and (max-width: 599px) {
+  .mobile_app_download_description {
+    height: unset;
+    font-size: calc(1em + 1vw);
+    margin-top: 25px;
+  }
   .small_card {
     width: calc((100% - 30px) / 3);
     text-align: left;
@@ -954,6 +981,13 @@ sup {
   .header .header_buttons .header_buttons_btn {
     height: 40px;
   }
+  .button {
+    height: 40px;
+  }
+  .button_content {
+     width: unset;
+  }
+
   .header .header_logo .logo {
     margin-left: 0px;
     height: 35px;
@@ -994,6 +1028,16 @@ sup {
   }
 }
 
+/*@media only screen and (max-width: 360px) {*/
+/*  .header_buttons_btn {*/
+/*    width: calc(100% / 2);*/
+/*  }*/
+/*  .header_buttons_btn_label {*/
+/*    font-size: 8px;*/
+/*  }*/
+/*}*/
+
+
 @media only screen and (max-width: 360px) {
   .header_buttons_btn {
     width: calc(100% / 2);
@@ -1001,4 +1045,16 @@ sup {
   .header_buttons_btn_label {
     font-size: 8px;
   }
+  /*.mobile_app_button_container */
+  .button {
+    width: calc((100% - 20px) / 2);
+  }
+  .mobileAppCard {
+    height: auto;
+  }
+  .mobile_app_download_description {
+    height: unset;
+    font-size: calc(1em + 1vw);
+  }
+  /*.mobile_app_download_description*/
 }
